@@ -7,6 +7,41 @@
   pointer-events: none;
 }
 
+td {
+  text-align: center;
+
+}
+
+tr {
+  text-align: center;
+}
+
+.card-detail{
+	position: relative;
+}
+.card-detail:before{
+  position: absolute;
+	content: "";
+	z-index: -1;
+	bottom: 20px;
+	left: 8px;
+	right: 8px;
+	top: 20px;
+	background: #777;
+	-webkit-box-shadow: 0 0 30px 10px #486685;
+	-moz-box-shadow: 0 0 30px 10px #486685;
+	box-shadow: 0 0 30px 10px #486685;
+	border-radius: 10px/40px; 
+}
+
+.buttons{
+  margin: 10px;
+}
+
+td button{
+  width: 100%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
